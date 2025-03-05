@@ -1,0 +1,13 @@
+train: D:\DOST-Internship\Pre-assesment\myenv\Smart_Aquafarm_Feeder\dataset\train\images
+val: D:\DOST-Internship\Pre-assesment\myenv\Smart_Aquafarm_Feeder\dataset\valid\images
+test: D:\DOST-Internship\Pre-assesment\myenv\Smart_Aquafarm_Feeder\dataset\test\images
+
+nc: 1
+names: ['Shrimp feeds']
+
+roboflow:
+  workspace: shrimp-labels
+  project: shrimp-feeds-hvrlh
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shrimp-labels/shrimp-feeds-hvrlh/dataset/7
